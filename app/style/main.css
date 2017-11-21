@@ -1,0 +1,73 @@
+
+.top-bar {
+  background: #000000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 300;
+  font-family: Oxygen, serif;
+  color: #85939f; }
+
+.top-bar-links {
+  display: flex;
+  align-items: center;
+  margin: 0; }
+  .top-bar-links li {
+    list-style: none;
+    margin-right: 1em; }
+    .top-bar-links li a {
+      color: #85939f;
+      text-decoration: none; }
+
+.search {
+  margin: 1em; }
+
+.navbar-brand {
+  background: url("graphics/shape-9.png");
+  width: 130px;
+  height: 48px; }
+
+.navigate {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  background-color: #989a9c; }
+
+.navigation {
+  margin: 0;
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap; }
+  .navigation li {
+    text-transform: uppercase;
+    width: 99px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    list-style: none;
+    justify-content: center; }
+    .navigation li a {
+      color: #ffffff;
+      text-decoration: none; }
+
+.yellow {
+  border-top: 6px solid #ffae00; }
+
+.orange {
+  border-top: 6px solid #fc7100; }
+
+.pink {
+  border-top: 6px solid #e51c5e; }
+
+.dark-pink {
+  border-top: 6px solid #ae0f8d; }
+
+.violet {
+  border-top: 6px solid #6d0fae; }
+
+.dark-blue {
+  border-top: 6px solid #33227a; }
+
+.blue {
+  border-top: 6px solid #0c8fcc; }
