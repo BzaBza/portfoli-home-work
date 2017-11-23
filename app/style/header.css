@@ -22,16 +22,20 @@
   margin: 1em; }
 
 .navbar-brand {
+  margin: 1em 0 1em 0;
   background: url("../modules/navigation/graphics/shape-9.png");
   width: 130px;
   height: 48px; }
 
 .navigate {
+  z-index: 1;
+  width: 100%;
+  position: absolute;
   flex-wrap: wrap;
   display: flex;
   justify-content: space-around;
   padding: 0;
-  background-color: #989a9c;
+  background-color: #4b4b4f;
   color: black; }
 
 .navigation {
