@@ -1,0 +1,89 @@
+// Colors
+$barColor: #fff
+$overlayColor: #02baab
+$backColor: rgba(2, 186, 171, 0.8)
+
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans)
+
+/* -------------------------------------
+ * Bar container
+ * ------------------------------------- */
+.progress-radial
+  float: left
+  margin-right: 145px
+  position: relative
+  width: 218px
+  height: 218px
+  border-radius: 50%
+  background-color: $barColor
+.progress-radial:last-child
+  margin: 0
+// default 100%
+
+/* -------------------------------------
+ * Optional centered circle w/text
+ * ------------------------------------- */
+.progress-radial .overlay
+  position: absolute
+  width: 210px
+  height: 210px
+  background-color: $overlayColor
+  border-radius: 50%
+  margin-left: 4px
+  margin-top: 4px
+  text-align: center
+  line-height: 60px
+  font-size: 16px
+  z-index: 0
+
+.gears
+  border-radius: 50%
+  background: url("../../graphic/radials/shape-69.png"), #000000
+  background-repeat: no-repeat
+  background-position: center
+  width: 100px
+  height: 100px
+  position: absolute
+  z-index: 1
+  margin: 60px 0 0 60px
+
+.phone
+  border-radius: 50%
+  background: url("../../graphic/radials/shape-75.png"), #000000
+  background-repeat: no-repeat
+  background-position: center
+  width: 100px
+  height: 100px
+  position: absolute
+  z-index: 1
+  margin: 60px 0 0 60px
+
+.rocket
+  border-radius: 50%
+  background: url("../../graphic/radials/shape-72.png"), #000000
+  background-repeat: no-repeat
+  background-position: center
+  width: 100px
+  height: 100px
+  position: absolute
+  z-index: 1
+  margin: 60px 0 0 60px
+
+/* -------------------------------------
+ * Mixin for progress-% class
+ * ------------------------------------- */
+
+$step: 5
+// step of % for created classes
+
+$loops: round(100 / $step)
+$increment: 360 / $loops
+$half: round($loops / 2)
+@for $i from 0 through $loops
+  .progress-#{$i*$step}
+    @if $i < $half
+      $nextdeg: 90deg + ( $increment * $i )
+      background-image: linear-gradient(90deg, $backColor 50%, transparent 50%, transparent), linear-gradient($nextdeg, $barColor 50%, $backColor 50%, $backColor)
+    @else
+      $nextdeg: -90deg + ( $increment * ( $i - $half ) )
+      background-image: linear-gradient($nextdeg, $barColor 50%, transparent 50%, transparent), linear-gradient(270deg, $barColor 50%, $backColor 50%, $backColor)

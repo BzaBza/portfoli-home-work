@@ -1,106 +1,17 @@
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
-body {
-  padding: 30px 0;
-  background-color: #2f3439;
-  font-family: 'Noto Sans', sans-serif; }
+.expirience {
+  padding: 5em 0 5em 0;
+  color: rgba(255, 255, 255, 0.7);
+  background-color: #02baab; }
+  .expirience header {
+    padding: 0 0 2em 0; }
 
-.wrap {
-  width: 600px;
-  margin: 0 auto; }
-
-/* -------------------------------------
- * Bar container
- * ------------------------------------- */
-.progress-radial {
-  float: left;
-  margin-right: 30px;
-  position: relative;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border: 2px solid #2f3439;
-  background-color: #fff; }
-
-/* -------------------------------------
- * Optional centered circle w/text
- * ------------------------------------- */
-.progress-radial .overlay {
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  background-color: #fffde8;
-  border-radius: 50%;
-  margin-left: 20px;
-  margin-top: 20px;
-  text-align: center;
-  line-height: 60px;
-  font-size: 16px; }
-
-/* -------------------------------------
- * Mixin for progress-% class
- * ------------------------------------- */
-.progress-0 {
-  background-image: linear-gradient(90deg, #2f3439 50%, transparent 50%, transparent), linear-gradient(90deg, #fff 50%, #2f3439 50%, #2f3439); }
-
-.progress-5 {
-  background-image: linear-gradient(90deg, #2f3439 50%, transparent 50%, transparent), linear-gradient(108deg, #fff 50%, #2f3439 50%, #2f3439); }
-
-.progress-10 {
-  background-image: linear-gradient(90deg, #2f3439 50%, transparent 50%, transparent), linear-gradient(126deg, #fff 50%, #2f3439 50%, #2f3439); }
-
-.progress-15 {
-  background-image: linear-gradient(90deg, #2f3439 50%, transparent 50%, transparent), linear-gradient(144deg, #fff 50%, #2f3439 50%, #2f3439); }
-
-.progress-20 {
-  background-image: linear-gradient(90deg, #2f3439 50%, transparent 50%, transparent), linear-gradient(162deg, #fff 50%, #2f3439 50%, #2f3439); }
-
-.progress-25 {
-  background-image: linear-gradient(90deg, #2f3439 50%, transparent 50%, transparent), linear-gradient(180deg, #fff 50%, #2f3439 50%, #2f3439); }
-
-.progress-30 {
-  background-image: linear-gradient(90deg, #2f3439 50%, transparent 50%, transparent), linear-gradient(198deg, #fff 50%, #2f3439 50%, #2f3439); }
-
-.progress-35 {
-  background-image: linear-gradient(90deg, #2f3439 50%, transparent 50%, transparent), linear-gradient(216deg, #fff 50%, #2f3439 50%, #2f3439); }
-
-.progress-40 {
-  background-image: linear-gradient(90deg, #2f3439 50%, transparent 50%, transparent), linear-gradient(234deg, #fff 50%, #2f3439 50%, #2f3439); }
-
-.progress-45 {
-  background-image: linear-gradient(90deg, #2f3439 50%, transparent 50%, transparent), linear-gradient(252deg, #fff 50%, #2f3439 50%, #2f3439); }
-
-.progress-50 {
-  background-image: linear-gradient(-90deg, #fff 50%, transparent 50%, transparent), linear-gradient(270deg, #fff 50%, #2f3439 50%, #2f3439); }
-
-.progress-55 {
-  background-image: linear-gradient(-72deg, #fff 50%, transparent 50%, transparent), linear-gradient(270deg, #fff 50%, #2f3439 50%, #2f3439); }
-
-.progress-60 {
-  background-image: linear-gradient(-54deg, #fff 50%, transparent 50%, transparent), linear-gradient(270deg, #fff 50%, #2f3439 50%, #2f3439); }
-
-.progress-65 {
-  background-image: linear-gradient(-36deg, #fff 50%, transparent 50%, transparent), linear-gradient(270deg, #fff 50%, #2f3439 50%, #2f3439); }
-
-.progress-70 {
-  background-image: linear-gradient(-18deg, #fff 50%, transparent 50%, transparent), linear-gradient(270deg, #fff 50%, #2f3439 50%, #2f3439); }
-
-.progress-75 {
-  background-image: linear-gradient(0deg, #fff 50%, transparent 50%, transparent), linear-gradient(270deg, #fff 50%, #2f3439 50%, #2f3439); }
-
-.progress-80 {
-  background-image: linear-gradient(18deg, #fff 50%, transparent 50%, transparent), linear-gradient(270deg, #fff 50%, #2f3439 50%, #2f3439); }
-
-.progress-85 {
-  background-image: linear-gradient(36deg, #fff 50%, transparent 50%, transparent), linear-gradient(270deg, #fff 50%, #2f3439 50%, #2f3439); }
-
-.progress-90 {
-  background-image: linear-gradient(54deg, #fff 50%, transparent 50%, transparent), linear-gradient(270deg, #fff 50%, #2f3439 50%, #2f3439); }
-
-.progress-95 {
-  background-image: linear-gradient(72deg, #fff 50%, transparent 50%, transparent), linear-gradient(270deg, #fff 50%, #2f3439 50%, #2f3439); }
-
-.progress-100 {
-  background-image: linear-gradient(90deg, #fff 50%, transparent 50%, transparent), linear-gradient(270deg, #fff 50%, #2f3439 50%, #2f3439); }
+.radial-info {
+  margin-top: 1em; }
+  .radial-info li {
+    list-style: none;
+    margin-right: 100px; }
+  .radial-info li:last-child {
+    margin: 0; }
 
 .super-features {
   padding: 5em 0 5em 0; }
@@ -121,6 +32,137 @@ body {
   .slider-latest-works li {
     display: flex;
     margin: 1em; }
+
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+/* -------------------------------------
+ * Bar container
+ * ------------------------------------- */
+.progress-radial {
+  float: left;
+  margin-right: 145px;
+  position: relative;
+  width: 218px;
+  height: 218px;
+  border-radius: 50%;
+  background-color: #fff; }
+
+.progress-radial:last-child {
+  margin: 0; }
+
+/* -------------------------------------
+ * Optional centered circle w/text
+ * ------------------------------------- */
+.progress-radial .overlay {
+  position: absolute;
+  width: 210px;
+  height: 210px;
+  background-color: #02baab;
+  border-radius: 50%;
+  margin-left: 4px;
+  margin-top: 4px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 16px;
+  z-index: 0; }
+
+.gears {
+  border-radius: 50%;
+  background: url("../../graphic/radials/shape-69.png"), #000000;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  z-index: 1;
+  margin: 60px 0 0 60px; }
+
+.phone {
+  border-radius: 50%;
+  background: url("../../graphic/radials/shape-75.png"), #000000;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  z-index: 1;
+  margin: 60px 0 0 60px; }
+
+.rocket {
+  border-radius: 50%;
+  background: url("../../graphic/radials/shape-72.png"), #000000;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  z-index: 1;
+  margin: 60px 0 0 60px; }
+
+/* -------------------------------------
+ * Mixin for progress-% class
+ * ------------------------------------- */
+.progress-0 {
+  background-image: linear-gradient(90deg, rgba(2, 186, 171, 0.8) 50%, transparent 50%, transparent), linear-gradient(90deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
+
+.progress-5 {
+  background-image: linear-gradient(90deg, rgba(2, 186, 171, 0.8) 50%, transparent 50%, transparent), linear-gradient(108deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
+
+.progress-10 {
+  background-image: linear-gradient(90deg, rgba(2, 186, 171, 0.8) 50%, transparent 50%, transparent), linear-gradient(126deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
+
+.progress-15 {
+  background-image: linear-gradient(90deg, rgba(2, 186, 171, 0.8) 50%, transparent 50%, transparent), linear-gradient(144deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
+
+.progress-20 {
+  background-image: linear-gradient(90deg, rgba(2, 186, 171, 0.8) 50%, transparent 50%, transparent), linear-gradient(162deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
+
+.progress-25 {
+  background-image: linear-gradient(90deg, rgba(2, 186, 171, 0.8) 50%, transparent 50%, transparent), linear-gradient(180deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
+
+.progress-30 {
+  background-image: linear-gradient(90deg, rgba(2, 186, 171, 0.8) 50%, transparent 50%, transparent), linear-gradient(198deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
+
+.progress-35 {
+  background-image: linear-gradient(90deg, rgba(2, 186, 171, 0.8) 50%, transparent 50%, transparent), linear-gradient(216deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
+
+.progress-40 {
+  background-image: linear-gradient(90deg, rgba(2, 186, 171, 0.8) 50%, transparent 50%, transparent), linear-gradient(234deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
+
+.progress-45 {
+  background-image: linear-gradient(90deg, rgba(2, 186, 171, 0.8) 50%, transparent 50%, transparent), linear-gradient(252deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
+
+.progress-50 {
+  background-image: linear-gradient(-90deg, #fff 50%, transparent 50%, transparent), linear-gradient(270deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
+
+.progress-55 {
+  background-image: linear-gradient(-72deg, #fff 50%, transparent 50%, transparent), linear-gradient(270deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
+
+.progress-60 {
+  background-image: linear-gradient(-54deg, #fff 50%, transparent 50%, transparent), linear-gradient(270deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
+
+.progress-65 {
+  background-image: linear-gradient(-36deg, #fff 50%, transparent 50%, transparent), linear-gradient(270deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
+
+.progress-70 {
+  background-image: linear-gradient(-18deg, #fff 50%, transparent 50%, transparent), linear-gradient(270deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
+
+.progress-75 {
+  background-image: linear-gradient(0deg, #fff 50%, transparent 50%, transparent), linear-gradient(270deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
+
+.progress-80 {
+  background-image: linear-gradient(18deg, #fff 50%, transparent 50%, transparent), linear-gradient(270deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
+
+.progress-85 {
+  background-image: linear-gradient(36deg, #fff 50%, transparent 50%, transparent), linear-gradient(270deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
+
+.progress-90 {
+  background-image: linear-gradient(54deg, #fff 50%, transparent 50%, transparent), linear-gradient(270deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
+
+.progress-95 {
+  background-image: linear-gradient(72deg, #fff 50%, transparent 50%, transparent), linear-gradient(270deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
+
+.progress-100 {
+  background-image: linear-gradient(90deg, #fff 50%, transparent 50%, transparent), linear-gradient(270deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
 
 body {
   font-family: "Oxygen", sans-serif !important; }
