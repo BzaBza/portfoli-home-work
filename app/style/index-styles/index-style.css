@@ -33,6 +33,24 @@
     display: flex;
     margin: 1em; }
 
+.our-team header {
+  padding: 5em 0 5em 0; }
+
+.our-team-list li {
+  list-style: none; }
+
+.our-team-list li:hover .our-team-list-content {
+  display: none; }
+
+.our-team-list-content {
+  width: 210px;
+  background: #ffffff;
+  position: absolute;
+  margin-bottom: 3em; }
+
+.our-team-button {
+  margin-bottom: -5em; }
+
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 /* -------------------------------------
  * Bar container
@@ -185,7 +203,8 @@ body {
   font-weight: 700;
   font-family: Oxygen, serif;
   line-height: 35px;
-  letter-spacing: 0.9px; }
+  letter-spacing: 0.9px;
+  padding: 0 1em 0 1em; }
 
 .button:hover {
   background: #02baab;
