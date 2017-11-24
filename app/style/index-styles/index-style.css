@@ -21,6 +21,25 @@
   .features-content li {
     list-style: none; }
 
+.main-footer {
+  color: #ffffff;
+  background-color: #1f2a32; }
+  .main-footer li {
+    padding: 0; }
+    .main-footer li ul {
+      padding: 0 1em 0 0; }
+  .main-footer header {
+    padding: 4em 0 2em 0; }
+  .main-footer .container {
+    margin-bottom: 0; }
+
+.footer-to-top {
+  text-decoration: none;
+  height: 40px; }
+
+.footer-to-top:hover {
+  text-decoration: none; }
+
 .latest-works {
   padding: 4em 0 4em 0;
   background-color: rgba(0, 0, 0, 0.6);
@@ -33,8 +52,10 @@
     display: flex;
     margin: 1em; }
 
-.our-team header {
-  padding: 5em 0 5em 0; }
+.our-team {
+  padding-bottom: 5em; }
+  .our-team header {
+    padding: 5em 0 5em 0; }
 
 .our-team-list li {
   list-style: none; }
@@ -50,6 +71,11 @@
 
 .our-team-button {
   margin-bottom: -5em; }
+
+.latest-posts {
+  margin: 5em 0 5em 0; }
+  .latest-posts header {
+    margin: 1em 0 3em 0; }
 
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 /* -------------------------------------
@@ -184,6 +210,12 @@
 
 body {
   font-family: "Oxygen", sans-serif !important; }
+
+li {
+  list-style: none; }
+
+ul {
+  padding: 0; }
 
 .welcome {
   min-height: 95vh;
