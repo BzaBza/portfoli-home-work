@@ -139,6 +139,15 @@
   .latest-posts header {
     margin: 1em 0 3em 0; }
 
+.quote-content {
+  margin-bottom: 10em;
+  font-size: 24px; }
+
+.quote-content:before {
+  content: url("../../graphic/quote-slider/shape-63.png");
+  width: 45px;
+  height: 37px; }
+
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 /* -------------------------------------
  * Bar container
