@@ -1,3 +1,36 @@
+.ellipse {
+  position: absolute;
+  margin-left: 6.5em;
+  margin-top: 3em;
+  display: none; }
+  .ellipse li button {
+    list-style: none;
+    border-radius: 50%;
+    border: none;
+    height: 45px;
+    width: 45px; }
+
+.like {
+  background: url("../../graphic/elipse-button/shape-66.png"), #02baab;
+  height: 19px;
+  width: 19px;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.zoom {
+  background: url("../../graphic/elipse-button/shape-67.png"), #02baab;
+  height: 19px;
+  width: 19px;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.fix {
+  background: url("../../graphic/elipse-button/shape-68.png"), #02baab;
+  height: 19px;
+  width: 19px;
+  background-position: center;
+  background-repeat: no-repeat; }
+
 .expirience {
   padding: 5em 0 5em 0;
   color: rgba(255, 255, 255, 0.7);
@@ -80,19 +113,6 @@
 
 .slider-latest-works li:hover .ellipse {
   display: block; }
-
-.ellipse {
-  position: absolute;
-  margin-left: 6.5em;
-  margin-top: 3em;
-  display: none; }
-  .ellipse li button {
-    list-style: none;
-    background: #02baab;
-    border-radius: 50%;
-    border: none;
-    height: 45px;
-    width: 45px; }
 
 .our-team {
   padding-bottom: 5em; }
