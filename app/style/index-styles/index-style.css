@@ -20,6 +20,32 @@
   padding: 3em; }
   .features-content li {
     list-style: none; }
+    .features-content li p {
+      margin-left: 4.3em; }
+
+.creative-design:before {
+  width: 39px;
+  height: 39px;
+  content: url("../../graphic/fitures/shape-59.png");
+  margin-right: 1em; }
+
+.over-title:before {
+  content: url("../../graphic/fitures/shape-74.png");
+  width: 39px;
+  height: 39px;
+  margin-right: 1em; }
+
+.incredible-documentation:before {
+  content: url("../../graphic/fitures/shape-62.png");
+  width: 39px;
+  height: 39px;
+  margin-right: 1em; }
+
+.responsive-retina:before {
+  content: url("../../graphic/fitures/shape-61.png");
+  width: 39px;
+  height: 39px;
+  margin-right: 1em; }
 
 .main-footer {
   color: #ffffff;
@@ -51,6 +77,22 @@
   .slider-latest-works li {
     display: flex;
     margin: 1em; }
+
+.slider-latest-works li:hover .ellipse {
+  display: block; }
+
+.ellipse {
+  position: absolute;
+  margin-left: 6.5em;
+  margin-top: 3em;
+  display: none; }
+  .ellipse li button {
+    list-style: none;
+    background: #02baab;
+    border-radius: 50%;
+    border: none;
+    height: 45px;
+    width: 45px; }
 
 .our-team {
   padding-bottom: 5em; }
@@ -229,6 +271,9 @@ button:hover {
   height: 95vh !important;
   width: 100% !important; }
 
+.main-color {
+  color: #02baab; }
+
 .button {
   background: none;
   border: 3px solid #02baab;
@@ -265,3 +310,12 @@ button:hover {
   line-height: 35px;
   text-transform: uppercase;
   letter-spacing: 0.9px; }
+
+.welcome-content {
+  margin-bottom: 25em; }
+
+.welcome-buttons {
+  margin-top: 5em; }
+
+.welcome-button {
+  margin-right: 4em; }
