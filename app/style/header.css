@@ -70,6 +70,9 @@
       color: #ffffff;
       text-decoration: none; }
 
+.brand {
+  display: none; }
+
 .yellow {
   border-top: 6px solid #ffae00; }
 

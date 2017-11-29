@@ -46,6 +46,10 @@
   .radial-info li:last-child {
     margin: 0; }
 
+@media (max-width: 1000px) {
+  .expirience {
+    display: none; } }
+
 .super-features {
   padding: 5em 0 5em 0; }
 
