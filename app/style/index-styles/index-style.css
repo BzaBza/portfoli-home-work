@@ -86,7 +86,8 @@
 
 .main-footer {
   color: #ffffff;
-  background-color: #1f2a32; }
+  background-color: #1f2a32;
+  overflow: hidden; }
   .main-footer li {
     padding: 0; }
     .main-footer li ul {
@@ -167,6 +168,24 @@
   margin: 5em 0 5em 0; }
   .latest-posts header {
     margin: 1em 0 3em 0; }
+
+.post {
+  max-width: 290px;
+  margin: 0 1em 0 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #c3c3c3; }
+  .post h3 {
+    font-size: 24px;
+    margin: 1em 0 1em 0; }
+  .post a:active {
+    color: #6d0fae;
+    text-decoration: none; }
+  .post a:hover {
+    color: #6d0fae;
+    text-decoration: none; }
+
+.comments {
+  color: #000; }
 
 .quote-content {
   margin-bottom: 10em;
@@ -323,17 +342,20 @@ ul {
 button:hover {
   cursor: pointer; }
 
+.main-color {
+  color: #02baab; }
+
 .welcome {
   min-height: 95vh;
   width: 100%;
   margin: auto; }
 
+.welcome-content {
+  height: 100% !important; }
+
 .img-fluid {
   height: 95vh !important;
   width: 100% !important; }
-
-.main-color {
-  color: #02baab; }
 
 .button {
   background: none;
@@ -371,9 +393,6 @@ button:hover {
   line-height: 35px;
   text-transform: uppercase;
   letter-spacing: 0.9px; }
-
-.welcome-content {
-  margin-bottom: 25em; }
 
 .welcome-buttons {
   margin-top: 5em; }

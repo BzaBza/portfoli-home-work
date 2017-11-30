@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
-    <link rel="import" id="footer" onload="show()" href="modules/navigation/nav-header.html">
+    <link rel="import" id="nav" onload="show()" href="modules/navigation/nav-header.html">
     <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/footer.css">
     <link rel="stylesheet" href="style/index-styles/index-style.css">
@@ -23,15 +23,14 @@
 
 
 <section class="welcome">
-    <div class="carousel-caption d-flex align-content-center justify-content-center flex-wrap">
-        <div class="welcome-content">
-            <div class="col-md-12">
-                <h2><span class="main-color row">Creating a unique look.</span><span>Never been easier.</span></h2>
-            </div>
-            <div class="flex-row col-md-12 d-flex justify-content-center welcome-buttons">
-                <button type="button" class="button welcome-button">see features</button>
-                <button type="button" class="button">purchase now</button>
-            </div>
+    <div class="carousel-caption d-flex align-content-center justify-content-center flex-wrap welcome-content">
+        <div class="col-md-12">
+            <h2><span class="main-color flex-row d-flex justify-content-center">Creating a unique look.</span><span>Never been easier.</span>
+            </h2>
+        </div>
+        <div class="flex-row col-md-12 d-flex justify-content-center welcome-buttons flex-wrap">
+            <button type="button" class="button welcome-button">see features</button>
+            <button type="button" class="button">purchase now</button>
         </div>
     </div>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -90,8 +89,10 @@
                     </li>
                 </ul>
                 <ul class="works-bottom-info">
-                    <li class="d-flex justify-content-between"><span>Lindemans Wine</span><span class="white-like"></span></li>
-                    <li class="d-flex justify-content-between main-color"><span>Art Direction, Web Design</span><span class="align-right">257</span></li>
+                    <li class="d-flex justify-content-between"><span>Lindemans Wine</span><span
+                            class="white-like"></span></li>
+                    <li class="d-flex justify-content-between main-color"><span>Art Direction, Web Design</span><span
+                            class="align-right">257</span></li>
                 </ul>
             </li>
             <li><img src="graphic/latest-works/placeimg_290_290_any%20(1).jpg" alt="">
@@ -107,8 +108,10 @@
                     </li>
                 </ul>
                 <ul class="works-bottom-info">
-                    <li class="d-flex justify-content-between"><span>Lindemans Wine</span><span class="white-like"></span></li>
-                    <li class="d-flex justify-content-between main-color"><span>Art Direction, Web Design</span><span>257</span></li>
+                    <li class="d-flex justify-content-between"><span>Lindemans Wine</span><span
+                            class="white-like"></span></li>
+                    <li class="d-flex justify-content-between main-color"><span>Art Direction, Web Design</span><span>257</span>
+                    </li>
                 </ul>
             </li>
             <li><img src="graphic/latest-works/placeimg_290_290_any%20(2).jpg" alt="">
@@ -124,8 +127,10 @@
                     </li>
                 </ul>
                 <ul class="works-bottom-info">
-                    <li class="d-flex justify-content-between"><span>Lindemans Wine</span><span class="white-like"></span></li>
-                    <li class="d-flex justify-content-between main-color"><span>Art Direction, Web Design</span><span class="align-right">257</span></li>
+                    <li class="d-flex justify-content-between"><span>Lindemans Wine</span><span
+                            class="white-like"></span></li>
+                    <li class="d-flex justify-content-between main-color"><span>Art Direction, Web Design</span><span
+                            class="align-right">257</span></li>
                 </ul>
             </li>
         </ul>
@@ -211,30 +216,31 @@
             Latest blog posts
         </h2>
     </header>
-    <div class="container d-flex  flex-wrap">
-        <ul class="d-flex flex-wrap container">
-            <li class="col-md-4"><img src="graphic/blog-post/placeimg_290_220_any.jpg" alt="">
+    <div class="container d-flex  flex-wrap justify-content-center">
+        <ul class="d-flex flex-wrap">
+            <li class="post"><img src="graphic/blog-post/placeimg_290_220_any.jpg" alt="">
                 <h3><a href="#" class="main-color">Runway to Red Carpet: Awards Season</a></h3>
                 <p>Her father worked on oil rigs and farms that through most of the Depression. But it is a new story
                     that has seared into my genetic.</p>
                 <div class="flex-row d-flex justify-content-between">
-                    <a href="#" class="main-color">Learn more</a><a href="#" class="main-color">450</a>
+                    <a href="#" class="main-color">Learn more</a><a href="#" class="comments">450</a>
                 </div>
             </li>
-            <li class="col-md-4"><img src="graphic/blog-post/placeimg_290_220_any.png" alt="">
+            <li class="post"><img src="graphic/blog-post/placeimg_290_220_any.png" alt="">
                 <h3><a href="#" class="main-color">Runway to Red Carpet: Awards Season</a></h3>
                 <p>Her father worked on oil rigs and farms that through most of the Depression. But it is a new story
                     that has seared into my genetic.</p>
                 <div class="flex-row d-flex justify-content-between">
-                    <a href="#" class="main-color">Learn more</a><a href="#" class="main-color">450</a>
+                    <a href="#" class="main-color">Learn more</a><a href="#" class="comments">450</a>
                 </div>
             </li>
-            <li class="col-md-4"><img src="graphic/blog-post/placeimg_290_220_any%20(1).jpg" alt="">
+            <li class="post"><img src="graphic/blog-post/placeimg_290_220_any%20(1).jpg" alt="">
                 <h3><a href="#" class="main-color">Runway to Red Carpet: Awards Season</a></h3>
-                <p>Her father worked on oil rigs and farms that through most of the Depression. But it is a new story
+                <p>Her father worked on oil rigs and farms that through most of the Depression. But it is a new
+                    story
                     that has seared into my genetic.</p>
                 <div class="flex-row d-flex justify-content-between">
-                    <a href="#" class="main-color">Learn more</a><a href="#" class="main-color">450</a>
+                    <a href="#" class="main-color">Learn more</a><a href="#" class="comments">450</a>
                 </div>
             </li>
         </ul>
@@ -325,7 +331,7 @@
 <footer class="main-footer">
     <ul class="d-flex container">
         <li class="col-md-3">
-            <header class="violet">Get in touch</header>
+            <header class="">Get in touch</header>
             <ul>
                 <li>
                     <p class="address">Address</p>
@@ -343,7 +349,7 @@
             </ul>
         </li>
         <li class="col-md-3">
-            <header class="blue">Latest tweets</header>
+            <header class="">Latest tweets</header>
             <ul>
                 <li><p>CMS Masters And Their Best Web Design Tools #bestwebdesigntools #webdesign
                     — about 12 min ago</p></li>
@@ -355,7 +361,7 @@
             </ul>
         </li>
         <li class="col-md-3">
-            <header class="pink">Follow us</header>
+            <header class="">Follow us</header>
             <ul>
                 <li>Like us on Facebook</li>
                 <li>Follow us on Twitter</li>
@@ -365,7 +371,7 @@
             </ul>
         </li>
         <li class="col-md-3">
-            <header class="yellow">Popular posts</header>
+            <header class="">Popular posts</header>
             <ul>
                 <li>
                     <p>September, 30</p>
