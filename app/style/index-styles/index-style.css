@@ -94,7 +94,10 @@
 .main-footer {
   color: #ffffff;
   background-color: #1f2a32;
-  overflow: hidden; }
+  overflow: hidden;
+  font-size: 12px; }
+  .main-footer .button {
+    color: #ffffff; }
   .main-footer li {
     padding: 0; }
     .main-footer li ul {
@@ -158,6 +161,8 @@
 
 .our-team-list li {
   list-style: none; }
+  .our-team-list li img {
+    padding-bottom: 1em; }
 
 .our-team-list li:hover .our-team-list-content {
   display: none !important; }
