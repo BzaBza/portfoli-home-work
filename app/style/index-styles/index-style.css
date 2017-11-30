@@ -49,6 +49,14 @@
     .radial-info li {
       margin: 0; } }
 
+.expirience-header:after {
+  display: flex;
+  margin: 1em 0 1em 48.5%;
+  content: "";
+  background: #ffffff;
+  width: 50px;
+  height: 5px; }
+
 .super-features {
   padding: 5em 0 5em 0; }
 
@@ -152,16 +160,25 @@
   list-style: none; }
 
 .our-team-list li:hover .our-team-list-content {
-  display: none; }
+  display: none !important; }
 
 .our-team-list-content {
   width: 210px;
   background: #ffffff;
   position: absolute;
-  margin-bottom: 3em; }
+  margin-bottom: 3em;
+  padding-top: 2em;
+  padding-bottom: 2em; }
 
 .our-team-button {
-  margin-bottom: -5em; }
+  width: 136px; }
+
+.back-info {
+  width: 80%;
+  border: 1px solid #eeeeee;
+  position: absolute;
+  margin-top: -5em;
+  background: #ffffff; }
 
 .latest-posts {
   margin: 5em 0 5em 0; }
