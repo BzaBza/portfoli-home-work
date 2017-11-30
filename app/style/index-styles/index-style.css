@@ -221,34 +221,34 @@
  * Mixin for progress-% class
  * ------------------------------------- */
 .progress-0 {
-  background-image: linear-gradient(90deg, rgba(2, 186, 171, 0.8) 50%, transparent 50%, transparent), linear-gradient(90deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
+  background-image: linear-gradient(270deg, #fff 50%, transparent 50%), linear-gradient(350deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
 
 .progress-5 {
-  background-image: linear-gradient(90deg, rgba(2, 186, 171, 0.8) 50%, transparent 50%, transparent), linear-gradient(108deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
+  background-image: linear-gradient(270deg, #fff 50%, transparent 50%), linear-gradient(350deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
 
 .progress-10 {
-  background-image: linear-gradient(90deg, rgba(2, 186, 171, 0.8) 50%, transparent 50%, transparent), linear-gradient(126deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
+  background-image: linear-gradient(270deg, #fff 50%, transparent 50%), linear-gradient(350deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
 
 .progress-15 {
-  background-image: linear-gradient(90deg, rgba(2, 186, 171, 0.8) 50%, transparent 50%, transparent), linear-gradient(144deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
+  background-image: linear-gradient(270deg, #fff 50%, transparent 50%), linear-gradient(350deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
 
 .progress-20 {
-  background-image: linear-gradient(90deg, rgba(2, 186, 171, 0.8) 50%, transparent 50%, transparent), linear-gradient(162deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
+  background-image: linear-gradient(270deg, #fff 50%, transparent 50%), linear-gradient(350deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
 
 .progress-25 {
-  background-image: linear-gradient(90deg, rgba(2, 186, 171, 0.8) 50%, transparent 50%, transparent), linear-gradient(180deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
+  background-image: linear-gradient(270deg, #fff 50%, transparent 50%), linear-gradient(350deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
 
 .progress-30 {
-  background-image: linear-gradient(90deg, rgba(2, 186, 171, 0.8) 50%, transparent 50%, transparent), linear-gradient(198deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
+  background-image: linear-gradient(270deg, #fff 50%, transparent 50%), linear-gradient(350deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
 
 .progress-35 {
-  background-image: linear-gradient(90deg, rgba(2, 186, 171, 0.8) 50%, transparent 50%, transparent), linear-gradient(216deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
+  background-image: linear-gradient(270deg, #fff 50%, transparent 50%), linear-gradient(350deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
 
 .progress-40 {
-  background-image: linear-gradient(90deg, rgba(2, 186, 171, 0.8) 50%, transparent 50%, transparent), linear-gradient(234deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
+  background-image: linear-gradient(270deg, #fff 50%, transparent 50%), linear-gradient(350deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
 
 .progress-45 {
-  background-image: linear-gradient(90deg, rgba(2, 186, 171, 0.8) 50%, transparent 50%, transparent), linear-gradient(252deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
+  background-image: linear-gradient(270deg, #fff 50%, transparent 50%), linear-gradient(350deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
 
 .progress-50 {
   background-image: linear-gradient(-90deg, #fff 50%, transparent 50%, transparent), linear-gradient(270deg, #fff 50%, rgba(2, 186, 171, 0.8) 50%, rgba(2, 186, 171, 0.8)); }
