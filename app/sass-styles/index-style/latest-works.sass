@@ -4,12 +4,38 @@
   background-color: rgba(0, 0, 0, 0.6)
   background-color: #08384b
   color: #ffffff
+
+.latest-work-header:after
+  display: flex
+  margin: 1em 0 1em 47.5%
+  content: ""
+  background: #ffffff
+  width: 50px
+  height: 5px
+
 .slider-latest-works
   display: flex
   li
     display: flex
     margin: 1em
-.slider-latest-works
   li:hover
     .ellipse
       display: block
+    .works-bottom-info
+      display: none
+
+.works-bottom-info
+  position: absolute
+  width: 290px
+  margin-top: 14em
+  li
+    margin: 0
+    display: flex
+
+.white-like
+  background: url("../../graphic/elipse-button/shape-67.png")
+  height: 19px
+  width: 19px
+  background-position: center
+  background-repeat: no-repeat
+  margin-right: 5px

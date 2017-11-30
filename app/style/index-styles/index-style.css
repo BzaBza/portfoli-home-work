@@ -11,14 +11,14 @@
     width: 45px; }
 
 .like {
-  background: url("../../graphic/elipse-button/shape-66.png"), #02baab;
+  background: url("../../graphic/elipse-button/shape-67.png"), #02baab;
   height: 19px;
   width: 19px;
   background-position: center;
   background-repeat: no-repeat; }
 
 .zoom {
-  background: url("../../graphic/elipse-button/shape-67.png"), #02baab;
+  background: url("../../graphic/elipse-button/shape-66.png"), #02baab;
   height: 19px;
   width: 19px;
   background-position: center;
@@ -58,7 +58,7 @@
   .features-content li {
     list-style: none; }
     .features-content li p {
-      margin-left: 4.3em; }
+      margin-left: 4.2em; }
 
 .creative-design:before {
   width: 39px;
@@ -109,14 +109,39 @@
   background-color: #08384b;
   color: #ffffff; }
 
+.latest-work-header:after {
+  display: flex;
+  margin: 1em 0 1em 47.5%;
+  content: "";
+  background: #ffffff;
+  width: 50px;
+  height: 5px; }
+
 .slider-latest-works {
   display: flex; }
   .slider-latest-works li {
     display: flex;
     margin: 1em; }
+  .slider-latest-works li:hover .ellipse {
+    display: block; }
+  .slider-latest-works li:hover .works-bottom-info {
+    display: none; }
 
-.slider-latest-works li:hover .ellipse {
-  display: block; }
+.works-bottom-info {
+  position: absolute;
+  width: 290px;
+  margin-top: 14em; }
+  .works-bottom-info li {
+    margin: 0;
+    display: flex; }
+
+.white-like {
+  background: url("../../graphic/elipse-button/shape-67.png");
+  height: 19px;
+  width: 19px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 5px; }
 
 .our-team {
   padding-bottom: 5em; }
