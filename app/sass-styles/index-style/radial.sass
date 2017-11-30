@@ -16,6 +16,18 @@ $backColor: rgba(2, 186, 171, 0.8)
   height: 218px
   border-radius: 50%
   background-color: $barColor
+  @media (max-width: 1200px)
+    display: none
+
+.progress-radial:after
+  content: url("../../graphic/radials/ellipse-6.png")
+  display: table
+  margin-left: 16em
+  margin-top: 45%
+.progress-radial:last-child:after
+  content: none
+
+
 .progress-radial:last-child
   margin: 0
 // default 100%

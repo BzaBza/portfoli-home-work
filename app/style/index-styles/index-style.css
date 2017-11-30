@@ -45,10 +45,9 @@
     margin-right: 100px; }
   .radial-info li:last-child {
     margin: 0; }
-
-@media (max-width: 1000px) {
-  .expirience {
-    display: none; } }
+  @media (max-width: 1000px) {
+    .radial-info li {
+      margin: 0; } }
 
 .super-features {
   padding: 5em 0 5em 0; }
@@ -208,6 +207,18 @@
   height: 218px;
   border-radius: 50%;
   background-color: #fff; }
+  @media (max-width: 1200px) {
+    .progress-radial {
+      display: none; } }
+
+.progress-radial:after {
+  content: url("../../graphic/radials/ellipse-6.png");
+  display: table;
+  margin-left: 16em;
+  margin-top: 45%; }
+
+.progress-radial:last-child:after {
+  content: none; }
 
 .progress-radial:last-child {
   margin: 0; }
