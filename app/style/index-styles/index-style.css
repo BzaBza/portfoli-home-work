@@ -5,6 +5,19 @@
   padding-top: 2em;
   background-color: #ebf0f3; }
 
+.comment {
+  border: 5px solid #dee7ed;
+  background-color: #ffffff;
+  color: #3b4954; }
+  .comment header {
+    border-bottom: 1px solid #3b4954; }
+
+.user-comment {
+  margin-left: 4em;
+  background-color: #ffffff; }
+  .user-comment header {
+    border-bottom: 1px solid #3b4954; }
+
 .grid-header {
   margin-top: 3em; }
 
