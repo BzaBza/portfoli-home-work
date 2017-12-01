@@ -78,6 +78,28 @@
       text-align: center;
       padding-top: 33%; }
 
+.add-on-header ul {
+  margin: 0;
+  padding: 0; }
+
+.add-on-header-img {
+  width: auto;
+  height: 100px;
+  position: absolute;
+  z-index: 0; }
+
+.add-on-header-content {
+  padding: 12em 0 0 0;
+  position: inherit;
+  z-index: 1; }
+  .add-on-header-content h3 {
+    font-size: 36px;
+    color: #ffffff; }
+  .add-on-header-content li {
+    padding-right: 1em;
+    font-size: 12px;
+    color: #85939f; }
+
 .login:before {
   content: url("../modules/navigation/graphics/shape-59.png");
   padding-right: 1em; }
