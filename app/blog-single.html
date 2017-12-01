@@ -40,7 +40,7 @@
             <img src="modules/navigation/graphics/any%20(3).jpg" alt="photo" width="1680" height="300">
         </div>
         <div class="add-on-header-content container">
-            <h3 >Blog post title goes here</h3>
+            <h3>Blog post title goes here</h3>
             <div class="d-flex flex-wrap justify-content-between">
                 <ul class="d-flex">
                     <li>by Alex Poushkin</li>
@@ -61,7 +61,7 @@
 
 <div class="d-flex flex-wrap container main-wrap">
     <section class="blog-single-content col-md-9">
-        <div><img src="#" alt="photo"></div>
+        <div><img src="graphic/blog-single/any%20(4).jpg" alt="photo" width="690" height="520"></div>
         <div class="content">
             <h3></h3>
             <p>These are the Americans that I know
@@ -91,10 +91,10 @@
             <p>Michigan plant who, after they found out it was closing, kept showing up every day and working as hard as
                 ever, because they knew there were people who counted on the brakes that they made. Michigan plant who,
                 after they found out it was closing, kept showing up every day and working as hard as ever, because.</p>
-            <ul>
-                <li><img src="#" alt="photo"></li>
-                <li><img src="#" alt="photo"></li>
-                <li><img src="#" alt="photo"></li>
+            <ul class="d-flex flex-wrap justify-content-between">
+                <li><img src="graphic/blog-single/any%20(5).jpg" alt="photo"></li>
+                <li><img src="graphic/blog-single/any%20(6).jpg" alt="photo"></li>
+                <li><img src="graphic/blog-single/any%20(7).jpg" alt="photo"></li>
             </ul>
             <p>Because they knew there were people who counted on the brakes that they made. Michigan plant who, after
                 they
@@ -163,69 +163,85 @@
     </aside>
 
     <section class="related-posts col-md-9">
-        <ul>
-            <li>
+        <ul class="d-flex flex-wrap justify-content-between">
+            <li class="col-md-3">
                 <p>June 24</p>
                 <p class="main-color">The hope of a young naval lieutenant bravely patrolling</p></li>
-            <li>
+            <li class="col-md-3">
                 <p>August 8</p>
                 <p class="main-color">Politicians routinely exploited fears of crime Christian Coalition</p></li>
-            <li>
+            <li class="col-md-3">
                 <p>August 13</p>
                 <p class="main-color">There was even a time when the Christian Coalition determined that its number
                     one </p>
             </li>
         </ul>
     </section>
+</div>
 
-    <section class="form col-md-9">
-        <h2>Add comment</h2>
-        <form action="#">
-            <div class="d-flex justify-content-center">
-                <ul class="d-flex flex-wrap justify-content-center">
-                    <li><input type="text" placeholder="name"></li>
-                    <li><input type="email" placeholder="email"></li>
-                    <li><input type="text" placeholder="Website (optional)"></li>
-                    <li class="col-md-12"><textarea class="col-md-12" name="message" id="message" cols="30" rows="10"
-                                                    placeholder="Message"></textarea></li>
-                    <li>
-                        <button class="button" type="submit">ADD COMMENT</button>
-                    </li>
-                </ul>
-            </div>
-        </form>
-    </section>
+<div class="blue-section">
+    <div class="container">
+        <section class="form col-md-9">
+            <h2>Add comment</h2>
+            <form action="#">
+                <div class="d-flex justify-content-center">
+                    <ul class="d-flex flex-wrap justify-content-between">
+                        <li>
+                            <label for="name" class="row  col-md-12">Name</label>
+                            <input type="text" id="name">
+                        </li>
+                        <li>
+                            <label for="email" class="row col-md-12">Email</label>
+                            <input type="email" id="email">
+                        </li>
+                        <li>
+                            <label for="website" class="row col-md-12">Website (optional)</label>
+                            <input type="text" id="website">
+                        </li>
+                        <li><label class="row col-md-3" for="message">Message</label>
+                            <textarea class="col-md-12" name="message" id="message" cols="100" rows="10"></textarea>
+                        </li>
+                        <li class="d-flex justify-content-end col-md-12">
+                            <button class="button" type="submit">ADD COMMENT</button>
+                        </li>
+                    </ul>
+                </div>
+            </form>
+        </section>
 
 
-    <section class="blog-single-comments col-md-9">
-        <ul>
-            <li>
-                <header><h3>24 Comments</h3></header>
-                <p>Small batch sartorial, single-origin coffee food truck tousled sed swag hella synth bitters next
-                    level
-                    consectetur Helvetica twee. Craft beer ea tofu sint reprehenderit cornhole, occaecat put a bird on
-                    it
-                    single-origin coffee Tonx. Small batch 3 wolf moon ad, adipisicing fap cornhole.</p>
-            </li>
-            <li>
-                <header></header>
-                <p>Small batch sartorial, single-origin coffee food truck tousled sed swag hella synth bitters next
-                    level
-                    consectetur Helvetica twee. Craft beer ea tofu sint reprehenderit cornhole, occaecat put a bird on
-                    it
-                    single-origin coffee Tonx. Small batch 3 wolf moon ad, adipisicing fap cornhole.</p>
-            </li>
-            <li>
-                <header></header>
-                <p>Small batch sartorial, single-origin coffee food truck tousled sed swag hella synth bitters next
-                    level
-                    consectetur Helvetica twee. Craft beer ea tofu sint reprehenderit cornhole, occaecat put a bird on
-                    it
-                    single-origin coffee Tonx. Small batch 3 wolf moon ad, adipisicing fap cornhole.</p>
-            </li>
-        </ul>
-    </section>
-
+        <section class="blog-single-comments col-md-9">
+            <ul>
+                <li>
+                    <header><h3>24 Comments</h3></header>
+                    <p>Small batch sartorial, single-origin coffee food truck tousled sed swag hella synth bitters next
+                        level
+                        consectetur Helvetica twee. Craft beer ea tofu sint reprehenderit cornhole, occaecat put a bird
+                        on
+                        it
+                        single-origin coffee Tonx. Small batch 3 wolf moon ad, adipisicing fap cornhole.</p>
+                </li>
+                <li>
+                    <header></header>
+                    <p>Small batch sartorial, single-origin coffee food truck tousled sed swag hella synth bitters next
+                        level
+                        consectetur Helvetica twee. Craft beer ea tofu sint reprehenderit cornhole, occaecat put a bird
+                        on
+                        it
+                        single-origin coffee Tonx. Small batch 3 wolf moon ad, adipisicing fap cornhole.</p>
+                </li>
+                <li>
+                    <header></header>
+                    <p>Small batch sartorial, single-origin coffee food truck tousled sed swag hella synth bitters next
+                        level
+                        consectetur Helvetica twee. Craft beer ea tofu sint reprehenderit cornhole, occaecat put a bird
+                        on
+                        it
+                        single-origin coffee Tonx. Small batch 3 wolf moon ad, adipisicing fap cornhole.</p>
+                </li>
+            </ul>
+        </section>
+    </div>
 </div>
 </body>
 </html>
