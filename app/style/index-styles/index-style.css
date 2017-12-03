@@ -27,6 +27,12 @@
 .aside-tag-cloud li a:hover {
   text-decoration: none; }
 
+.aside-recent-comments li {
+  padding-bottom: 1em; }
+  .aside-recent-comments li p {
+    padding: 0;
+    margin: 0; }
+
 .grid-header {
   margin-top: 3em; }
 
@@ -417,6 +423,10 @@ ul {
 button:hover {
   cursor: pointer; }
 
+.hover-link:hover {
+  color: #6d0fae;
+  text-decoration: none; }
+
 .main-color {
   color: #02baab; }
 
@@ -486,3 +496,20 @@ button:hover {
 
 .welcome-button {
   margin-right: 4em; }
+
+.portfolio-single-content {
+  padding: 3em 0  3em 0; }
+
+.control {
+  background: #ffffff !important;
+  width: 40px !important;
+  height: 40px !important;
+  color: #ffae00; }
+
+.control:hover {
+  background: #ffae00 !important;
+  width: 40px !important;
+  height: 40px !important; }
+
+.carousel-control-next-icon {
+  color: #ffae00 !important; }
