@@ -1,6 +1,9 @@
 .main-wrap {
   margin-top: 7em; }
 
+.aside {
+  font-size: 12px; }
+
 .blue-section {
   padding-top: 2em;
   background-color: #ebf0f3; }
@@ -17,6 +20,12 @@
   background-color: #ffffff; }
   .user-comment header {
     border-bottom: 1px solid #3b4954; }
+
+.aside-tag-cloud li a {
+  border: none !important; }
+
+.aside-tag-cloud li a:hover {
+  text-decoration: none; }
 
 .grid-header {
   margin-top: 3em; }
@@ -137,6 +146,18 @@
 .footer-to-top:hover {
   text-decoration: none; }
 
+.violet-footer {
+  border-top: 16px solid #6d0fae; }
+
+.blue-footer {
+  border-top: 16px solid #0c8fcc; }
+
+.pink-footer {
+  border-top: 16px solid #e51c5e; }
+
+.orange-footer {
+  border-top: 16px solid #fc7100; }
+
 .latest-works {
   padding: 4em 0 4em 0;
   background-color: rgba(0, 0, 0, 0.6);
@@ -152,7 +173,8 @@
   height: 5px; }
 
 .slider-latest-works {
-  display: flex; }
+  display: flex;
+  color: #ffffff; }
   .slider-latest-works li {
     display: flex;
     margin: 1em; }
@@ -397,6 +419,18 @@ button:hover {
 
 .main-color {
   color: #02baab; }
+
+.yellow-button {
+  background: none;
+  border: 3px solid #ffae00;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: Oxygen, serif;
+  line-height: 35px;
+  letter-spacing: 0.9px;
+  padding: 0 1em 0 1em;
+  color: #ffae00; }
 
 .welcome {
   min-height: 95vh;
